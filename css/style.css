@@ -519,6 +519,7 @@ h3.my-profession {
 .about .about-content .timeline .timeline-title {
     font-weight: 700;
     font-size: 18px;
+    /* font-size:1vw; */
     margin-bottom: 12px;
     text-transform: capitalize;
     color: var(--text-black-900);
@@ -526,11 +527,12 @@ h3.my-profession {
 .about .about-content .timeline .timeline-title span{
     font-weight: 500;
     font-size: 15px;
+    /* font-size: 0.8vw; */
 }
 .about .about-content .timeline .timeline-text {
     line-height: 25px;
     font-size: 16px;
-    text-align: justify;
+    /* text-align: justify; */
     color: var(--text-black-700);
 }
 
@@ -842,6 +844,13 @@ h3.my-profession {
     .home .home-img {
         display: none;
     }
+    .contactdata h4{
+        font-size: 2.2vw;
+    }
+    .portfolio-heading h2{
+        font-size: 2.5vw;
+    }
+      
 }
 
 @media (max-width:767px) {
@@ -855,5 +864,14 @@ h3.my-profession {
     .about .about-content .personal-info {
         flex: 0 0 100%;
         max-width: 100%;
+    }
+    .info-item p span{
+        font-size: 3.8vw;
+    }
+    .portfolio-heading h2{
+        font-size: 4vw;
+    }
+    .contactdata h4{
+        font-size: 4vw;
     }
 }
